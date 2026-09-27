@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Laravel
+/saffron-backend/vendor/
+/saffron-backend/node_modules/
+/saffron-backend/public/storage/
+/saffron-backend/storage/*.key
+/saffron-backend/.phpunit.cache/
+/saffron-backend/.phpunit.result.cache
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
